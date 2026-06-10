@@ -1,6 +1,6 @@
 /* Localizable.strings — Japanese */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "今日";
 "steps_unit" = "歩";
@@ -28,7 +28,7 @@
 
 "month_label" = "今月";
 "of_goal_format" = "%@ 目標中";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "今日の歩数と3ヶ月のヒートマップ。";
 "widget_small_name" = "Steps · 今月";
 "widget_small_description" = "今日の歩数と今月のヒートマップ。";

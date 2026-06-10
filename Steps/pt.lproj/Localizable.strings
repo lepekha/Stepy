@@ -1,6 +1,6 @@
 /* Localizable.strings — Portuguese */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "HOJE";
 "steps_unit" = "passos";
@@ -28,7 +28,7 @@
 
 "month_label" = "MÊS";
 "of_goal_format" = "de meta de %@";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "Passos de hoje com mapa de calor de 3 meses.";
 "widget_small_name" = "Steps · Mês";
 "widget_small_description" = "Passos de hoje com mapa de calor do mês.";

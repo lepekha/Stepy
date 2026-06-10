@@ -7,7 +7,7 @@
 */
 
 /* App */
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 /* Home */
 "today_label" = "TODAY";
@@ -40,7 +40,7 @@
 /* Widget */
 "month_label" = "MONTH";
 "of_goal_format" = "of %@ goal";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "Today's steps with 3-month heatmap.";
 "widget_small_name" = "Steps · Month";
 "widget_small_description" = "Today's steps with this month's heatmap.";

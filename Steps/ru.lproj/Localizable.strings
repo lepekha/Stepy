@@ -1,6 +1,6 @@
 /* Localizable.strings — Russian */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "СЕГОДНЯ";
 "steps_unit" = "шагов";
@@ -28,7 +28,7 @@
 
 "month_label" = "МЕСЯЦ";
 "of_goal_format" = "из цели %@";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "Шаги за сегодня с тепловой картой за 3 месяца.";
 "widget_small_name" = "Steps · Месяц";
 "widget_small_description" = "Шаги за сегодня с тепловой картой за месяц.";

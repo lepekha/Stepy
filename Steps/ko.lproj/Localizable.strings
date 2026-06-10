@@ -1,6 +1,6 @@
 /* Localizable.strings — Korean */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "오늘";
 "steps_unit" = "걸음";
@@ -28,7 +28,7 @@
 
 "month_label" = "이번 달";
 "of_goal_format" = "%@ 목표 중";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "오늘의 걸음 수와 3개월 히트맵.";
 "widget_small_name" = "Steps · 이번 달";
 "widget_small_description" = "오늘의 걸음 수와 이번 달 히트맵.";

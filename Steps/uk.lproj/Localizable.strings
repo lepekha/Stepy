@@ -7,7 +7,7 @@
 */
 
 /* App */
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 /* Home */
 "today_label" = "СЬОГОДНІ";
@@ -40,9 +40,9 @@
 /* Widget */
 "month_label" = "МІСЯЦЬ";
 "of_goal_format" = "з %@ цілі";
-"widget_medium_name" = "Кроки";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "Кроки за сьогодні та теплова карта за 3 місяці.";
-"widget_small_name" = "Кроки · Місяць";
+"widget_small_name" = "Stepy · Місяць";
 "widget_small_description" = "Кроки за сьогодні та теплова карта за місяць.";
 
 /* Widget — last updated */

@@ -1,7 +1,7 @@
 import HealthKit
 import WidgetKit
 
-private let appGroupID = "group.app.steps.Steps"
+private let appGroupID = "group.app.stepy"
 private let sharedStepsKey = "sharedStepsByDate"
 private let sharedGoalKey = "sharedGoal"
 private let sharedUpdatedKey = "sharedUpdatedAt"

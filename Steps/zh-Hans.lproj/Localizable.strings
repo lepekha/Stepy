@@ -1,6 +1,6 @@
 /* Localizable.strings — Chinese Simplified */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "今天";
 "steps_unit" = "步";
@@ -28,7 +28,7 @@
 
 "month_label" = "本月";
 "of_goal_format" = "目标%@中";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "今日步数及3个月热力图。";
 "widget_small_name" = "Steps · 本月";
 "widget_small_description" = "今日步数及本月热力图。";

@@ -1,6 +1,6 @@
 /* Localizable.strings — Indonesian */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "HARI INI";
 "steps_unit" = "langkah";
@@ -28,7 +28,7 @@
 
 "month_label" = "BULAN";
 "of_goal_format" = "dari target %@";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "Langkah hari ini dengan peta panas 3 bulan.";
 "widget_small_name" = "Steps · Bulan";
 "widget_small_description" = "Langkah hari ini dengan peta panas bulan ini.";

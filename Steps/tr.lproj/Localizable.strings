@@ -1,6 +1,6 @@
 /* Localizable.strings — Turkish */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "BUGÜN";
 "steps_unit" = "adım";
@@ -28,7 +28,7 @@
 
 "month_label" = "AY";
 "of_goal_format" = "%@ hedefin";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "Bugünün adımları ve 3 aylık ısı haritası.";
 "widget_small_name" = "Steps · Ay";
 "widget_small_description" = "Bugünün adımları ve bu ayın ısı haritası.";

@@ -1,6 +1,6 @@
 /* Localizable.strings — Arabic */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "اليوم";
 "steps_unit" = "خطوات";
@@ -28,7 +28,7 @@
 
 "month_label" = "الشهر";
 "of_goal_format" = "من هدف %@";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "خطوات اليوم مع خريطة حرارية لمدة 3 أشهر.";
 "widget_small_name" = "Steps · الشهر";
 "widget_small_description" = "خطوات اليوم مع خريطة حرارية لهذا الشهر.";

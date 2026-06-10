@@ -1,6 +1,6 @@
 /* Localizable.strings — Vietnamese */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "HÔM NAY";
 "steps_unit" = "bước";
@@ -28,7 +28,7 @@
 
 "month_label" = "THÁNG";
 "of_goal_format" = "trong mục tiêu %@";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "Bước chân hôm nay với bản đồ nhiệt 3 tháng.";
 "widget_small_name" = "Steps · Tháng";
 "widget_small_description" = "Bước chân hôm nay với bản đồ nhiệt tháng này.";

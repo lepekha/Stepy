@@ -17,11 +17,26 @@ Steps/           — main iOS app
   HomeViewModel.swift — @MainActor ObservableObject; drives UI from HealthKitService
   HealthKitService.swift — actor; HKStatisticsCollectionQuery live updates + background delivery
   HeatmapView.swift   — SolidGridView (20-col year grid), DayTooltipView, LegendView
+  ShareSheet.swift    — ShareProgressSheet + ShareCardToday/Day/Weekly/Year; ImageRenderer PNG export
+  LocalizedStrings.swift — typed Strings struct; all user-facing strings via NSLocalizedString
   StepsModel.swift    — pure structs (StepDay, StepStats, StepsModel), GHTheme, HeatPalette, fmt helpers
 StepsWidget/     — WidgetKit extension (small + medium)
   StepsWidget.swift       — provider reads shared UserDefaults; falls back to mock data
   StepsWidgetBundle.swift — registers both widget configs
 ```
+
+## Firebase
+`GoogleService-Info.plist` required at `Steps/GoogleService-Info.plist` (gitignored — add manually after clone).
+`AppDelegate` calls `FirebaseApp.configure()` on launch.
+
+## Localization
+22 locales. All strings go through `Strings` struct in `LocalizedStrings.swift` — add new key there plus matching entry in every `*.lproj/Localizable.strings`.
+
+## Deployment
+```bash
+bundle exec fastlane release   # increments build number, archives, uploads to App Store
+```
+App ID: `app.stepy` · Apple ID: `ruslan.lepekha@gmail.com` · Team: `H2QH4W996F`
 
 ## Shared Data (App ↔ Widget)
 
@@ -42,6 +57,7 @@ GitHub contribution graph aesthetic. Two themes: `GHTheme` (bg/text/border color
 `UserDefaults.standard` key `daily_goal` (Int). Minimum 100, step 500. Updated via `HomeViewModel.updateGoal(_:)`.
 
 ## Key Gotchas
+- `ImageRenderer` can't capture lazy views — share cards use eager `VStack`/`HStack`, never `LazyVGrid`. Share card sizes are fixed (390×390 or 390×693); don't use `GeometryReader` at root of share cards.
 - HealthKit returns no data on Simulator — always test on device.
 - `HKStatisticsCollectionQuery` fires both `initialResultsHandler` and `statisticsUpdateHandler`; both call the same closure.
 - Widget timeline refreshes every 30 min; HealthKit observer also calls `WidgetCenter.shared.reloadAllTimelines()` on background delivery.

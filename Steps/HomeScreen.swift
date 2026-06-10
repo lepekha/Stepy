@@ -55,7 +55,6 @@ struct HomeScreen: View {
         .onReceive(
             NotificationCenter.default.publisher(for: UIApplication.userDidTakeScreenshotNotification)
         ) { _ in
-            showingShareSheet = true
         }
         .sheet(isPresented: $showingShareSheet) {
             ShareProgressSheet(

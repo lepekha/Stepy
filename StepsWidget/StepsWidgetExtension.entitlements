@@ -8,7 +8,7 @@
 	<array/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.app.steps.Steps</string>
+		<string>group.app.stepy</string>
 	</array>
 </dict>
 </plist>

@@ -1,6 +1,6 @@
 /* Localizable.strings — Hindi */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "आज";
 "steps_unit" = "कदम";
@@ -28,7 +28,7 @@
 
 "month_label" = "महीना";
 "of_goal_format" = "%@ लक्ष्य में से";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "आज के कदम और 3 महीने की हीटमैप.";
 "widget_small_name" = "Steps · महीना";
 "widget_small_description" = "आज के कदम और इस महीने की हीटमैप.";

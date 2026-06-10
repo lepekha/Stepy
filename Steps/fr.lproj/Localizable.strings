@@ -1,6 +1,6 @@
 /* Localizable.strings — French */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "AUJOURD'HUI";
 "steps_unit" = "pas";
@@ -28,7 +28,7 @@
 
 "month_label" = "MOIS";
 "of_goal_format" = "sur %@ d'objectif";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "Pas du jour avec carte de chaleur sur 3 mois.";
 "widget_small_name" = "Steps · Mois";
 "widget_small_description" = "Pas du jour avec carte de chaleur du mois.";

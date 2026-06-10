@@ -1,6 +1,6 @@
 /* Localizable.strings — Hebrew */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "היום";
 "steps_unit" = "צעדים";
@@ -28,7 +28,7 @@
 
 "month_label" = "חודש";
 "of_goal_format" = "מיעד %@";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "צעדי היום עם מפת חום של 3 חודשים.";
 "widget_small_name" = "Steps · חודש";
 "widget_small_description" = "צעדי היום עם מפת חום של החודש.";

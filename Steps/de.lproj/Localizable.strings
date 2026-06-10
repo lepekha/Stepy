@@ -1,6 +1,6 @@
 /* Localizable.strings — German */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "HEUTE";
 "steps_unit" = "Schritte";
@@ -28,7 +28,7 @@
 
 "month_label" = "MONAT";
 "of_goal_format" = "von %@ Ziel";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "Heutige Schritte mit 3-Monats-Heatmap.";
 "widget_small_name" = "Steps · Monat";
 "widget_small_description" = "Heutige Schritte mit Monats-Heatmap.";

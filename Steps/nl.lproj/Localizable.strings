@@ -1,6 +1,6 @@
 /* Localizable.strings — Dutch */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "VANDAAG";
 "steps_unit" = "stappen";
@@ -28,7 +28,7 @@
 
 "month_label" = "MAAND";
 "of_goal_format" = "van doel %@";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "Stappen van vandaag met 3-maands heatmap.";
 "widget_small_name" = "Steps · Maand";
 "widget_small_description" = "Stappen van vandaag met maandelijkse heatmap.";

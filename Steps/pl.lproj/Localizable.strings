@@ -1,6 +1,6 @@
 /* Localizable.strings — Polish */
 
-"app_name" = "Steps";
+"app_name" = "Stepy";
 
 "today_label" = "DZIŚ";
 "steps_unit" = "kroków";
@@ -28,7 +28,7 @@
 
 "month_label" = "MIESIĄC";
 "of_goal_format" = "z celu %@";
-"widget_medium_name" = "Steps";
+"widget_medium_name" = "Stepy";
 "widget_medium_description" = "Dzisiejsze kroki z mapą ciepła za 3 miesiące.";
 "widget_small_name" = "Steps · Miesiąc";
 "widget_small_description" = "Dzisiejsze kroki z mapą ciepła na bieżący miesiąc.";
