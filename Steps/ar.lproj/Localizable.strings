@@ -1,0 +1,65 @@
+/* Localizable.strings — Arabic */
+
+"app_name" = "Steps";
+
+"today_label" = "اليوم";
+"steps_unit" = "خطوات";
+"goal_reached" = "تم بلوغ الهدف";
+"goal_reached_multiline" = "تم بلوغ\nالهدف";
+"goal_reached_with_amount_format" = "تم بلوغ هدف %@ خطوة";
+"percent_of_goal_format" = "%d%% من الهدف";
+"steps_progress_format" = "%@ / %@ خطوات";
+"steps_in_last_year" = "خطوات هذا العام";
+
+"daily_goal" = "الهدف اليومي";
+"done" = "تم";
+"steps_per_day" = "خطوات في اليوم";
+"stepper_label" = "±500 خطوة";
+
+"daily_avg" = "المتوسط اليومي";
+"total_label" = "الإجمالي";
+"record_label" = "رقم قياسي";
+"days_count_format" = "%d أيام";
+"tap_any_day" = "اضغط على أي يوم";
+
+"steps_day_format" = "خطوات · %@, %d";
+"legend_less" = "أقل";
+"legend_more" = "أكثر";
+
+"month_label" = "الشهر";
+"of_goal_format" = "من هدف %@";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "خطوات اليوم مع خريطة حرارية لمدة 3 أشهر.";
+"widget_small_name" = "Steps · الشهر";
+"widget_small_description" = "خطوات اليوم مع خريطة حرارية لهذا الشهر.";
+
+/* Widget — last updated */
+"updated_now" = "الآن";
+"updated_min_ago_format" = "قبل %d د";
+"updated_hours_ago_format" = "قبل %d س";
+"last_update_label" = "محدّث";
+
+/* Share Sheet */
+"share_your_progress" = "شارك تقدمك";
+"share_today" = "اليوم";
+"share_weekly" = "أسبوعي";
+"share_year" = "السنة";
+"share_day" = "يوم";
+"share_preparing" = "جارٍ التحضير…";
+"share_button" = "مشاركة";
+"share_cancel" = "إلغاء";
+"share_steps_today" = "خطوات اليوم";
+"share_avg_per_day" = "متوسط / يوم";
+"share_total" = "المجموع";
+"share_record" = "الرقم القياسي";
+"share_goal_label" = "الهدف:";
+"share_this_week" = "هذا الأسبوع";
+"share_days_goal_reached_format" = "%d من %d أيام · تم بلوغ الهدف";
+"share_best_day" = "أفضل يوم";
+"share_goal_days" = "أيام الهدف";
+"share_total_steps" = "إجمالي الخطوات";
+"share_record_day" = "يوم الرقم القياسي";
+"share_days_at_goal" = "أيام عند الهدف";
+"share_daily_avg" = "متوسط يومي";
+"share_success_rate" = "معدل النجاح";
+"share_total_steps_year" = "إجمالي الخطوات هذا العام";

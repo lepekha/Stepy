@@ -1,0 +1,24 @@
+Stepy turns your daily steps into a beautiful year-long heatmap — like a contribution graph for your walking.
+
+COUNT EVERY STEP
+Stepy reads step data straight from Apple Health. No extra hardware, no battery drain. Open the app and today's count is right there.
+
+HIT YOUR DAILY GOAL
+Set a step goal and follow a live progress bar. Stepy shows how close you are and celebrates when you reach 100%.
+
+SEE YOUR WHOLE YEAR
+Every day is a colored square. The more you walk, the brighter it glows. Tap any day to see its exact step count and spot your streaks at a glance.
+
+STATS THAT MATTER
+Daily average, all-time total, and your record day — always one tap away.
+
+HOME SCREEN WIDGETS
+Add small or medium widgets to see today's steps and your recent heatmap without opening the app.
+
+SHARE YOUR PROGRESS
+Export clean cards for today, this week, or the whole year and share them anywhere.
+
+PRIVATE BY DESIGN
+Your health data never leaves your device. No account, no sign-up, no tracking.
+
+Lace up and start filling your year. Every step counts.

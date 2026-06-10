@@ -9,6 +9,14 @@ import SwiftUI
 
 @main
 struct StepsApp: App {
+    init() {
+        Task {
+            let svc = HealthKitService.shared
+            _ = await svc.requestAuth()
+            await svc.enableBackgroundDelivery()
+        }
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()

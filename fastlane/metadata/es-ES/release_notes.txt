@@ -1,0 +1,7 @@
+Versión inicial.
+
+- Contador de pasos con Apple Health
+- Mapa de calor anual
+- Seguimiento de meta diaria
+- Widgets de pantalla de inicio
+- Tarjetas de progreso para compartir

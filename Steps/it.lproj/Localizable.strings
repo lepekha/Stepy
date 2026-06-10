@@ -1,0 +1,65 @@
+/* Localizable.strings — Italian */
+
+"app_name" = "Steps";
+
+"today_label" = "OGGI";
+"steps_unit" = "passi";
+"goal_reached" = "Obiettivo raggiunto";
+"goal_reached_multiline" = "Obiettivo\nraggiunto";
+"goal_reached_with_amount_format" = "Obiettivo %@ passi raggiunto";
+"percent_of_goal_format" = "%d%% dell'obiettivo";
+"steps_progress_format" = "%@ / %@ passi";
+"steps_in_last_year" = "passi quest'anno";
+
+"daily_goal" = "Obiettivo giornaliero";
+"done" = "Fine";
+"steps_per_day" = "passi al giorno";
+"stepper_label" = "±500 passi";
+
+"daily_avg" = "MEDIA GIORNALIERA";
+"total_label" = "TOTALE";
+"record_label" = "RECORD";
+"days_count_format" = "%d giorni";
+"tap_any_day" = "tocca qualsiasi giorno";
+
+"steps_day_format" = "passi · %@, %d";
+"legend_less" = "Meno";
+"legend_more" = "Di più";
+
+"month_label" = "MESE";
+"of_goal_format" = "su obiettivo di %@";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "Passi di oggi con heatmap a 3 mesi.";
+"widget_small_name" = "Steps · Mese";
+"widget_small_description" = "Passi di oggi con heatmap del mese.";
+
+/* Widget — last updated */
+"updated_now" = "ora";
+"updated_min_ago_format" = "%d min fa";
+"updated_hours_ago_format" = "%d h fa";
+"last_update_label" = "AGG.";
+
+/* Share Sheet */
+"share_your_progress" = "Condividi i tuoi progressi";
+"share_today" = "Oggi";
+"share_weekly" = "Settimanale";
+"share_year" = "Anno";
+"share_day" = "Giorno";
+"share_preparing" = "Preparazione…";
+"share_button" = "Condividi";
+"share_cancel" = "Annulla";
+"share_steps_today" = "passi oggi";
+"share_avg_per_day" = "media / giorno";
+"share_total" = "totale";
+"share_record" = "record";
+"share_goal_label" = "obiettivo:";
+"share_this_week" = "Questa settimana";
+"share_days_goal_reached_format" = "%d su %d giorni · obiettivo raggiunto";
+"share_best_day" = "miglior giorno";
+"share_goal_days" = "giorni obiettivo";
+"share_total_steps" = "Passi totali";
+"share_record_day" = "Giorno record";
+"share_days_at_goal" = "Giorni all'obiettivo";
+"share_daily_avg" = "Media giornaliera";
+"share_success_rate" = "Tasso di successo";
+"share_total_steps_year" = "passi totali quest'anno";

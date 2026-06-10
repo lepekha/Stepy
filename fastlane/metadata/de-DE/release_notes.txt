@@ -1,0 +1,7 @@
+Erste Version.
+
+- Schrittzähler über Apple Health
+- Jahres-Heatmap
+- Tagesziel-Tracking
+- Home-Bildschirm-Widgets
+- Teilbare Fortschrittskarten

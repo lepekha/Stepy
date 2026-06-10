@@ -1,0 +1,65 @@
+/* Localizable.strings — Korean */
+
+"app_name" = "Steps";
+
+"today_label" = "오늘";
+"steps_unit" = "걸음";
+"goal_reached" = "목표 달성";
+"goal_reached_multiline" = "목표\n달성";
+"goal_reached_with_amount_format" = "%@ 걸음 목표 달성";
+"percent_of_goal_format" = "목표의 %d%%";
+"steps_progress_format" = "%@ / %@ 걸음";
+"steps_in_last_year" = "올해 걸음 수";
+
+"daily_goal" = "일일 목표";
+"done" = "완료";
+"steps_per_day" = "하루 걸음 수";
+"stepper_label" = "±500 걸음";
+
+"daily_avg" = "일일 평균";
+"total_label" = "합계";
+"record_label" = "최고 기록";
+"days_count_format" = "%d일";
+"tap_any_day" = "날짜를 탭하세요";
+
+"steps_day_format" = "걸음 · %@, %d";
+"legend_less" = "적음";
+"legend_more" = "많음";
+
+"month_label" = "이번 달";
+"of_goal_format" = "%@ 목표 중";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "오늘의 걸음 수와 3개월 히트맵.";
+"widget_small_name" = "Steps · 이번 달";
+"widget_small_description" = "오늘의 걸음 수와 이번 달 히트맵.";
+
+/* Widget — last updated */
+"updated_now" = "방금";
+"updated_min_ago_format" = "%d분 전";
+"updated_hours_ago_format" = "%d시간 전";
+"last_update_label" = "업데이트";
+
+/* Share Sheet */
+"share_your_progress" = "진행 상황 공유";
+"share_today" = "오늘";
+"share_weekly" = "주간";
+"share_year" = "연간";
+"share_day" = "날";
+"share_preparing" = "준비 중…";
+"share_button" = "공유";
+"share_cancel" = "취소";
+"share_steps_today" = "오늘 걸음 수";
+"share_avg_per_day" = "평균/일";
+"share_total" = "합계";
+"share_record" = "기록";
+"share_goal_label" = "목표:";
+"share_this_week" = "이번 주";
+"share_days_goal_reached_format" = "%d일/%d일 · 목표 달성";
+"share_best_day" = "최고의 날";
+"share_goal_days" = "목표 달성일";
+"share_total_steps" = "총 걸음 수";
+"share_record_day" = "기록일";
+"share_days_at_goal" = "목표 달성 일수";
+"share_daily_avg" = "일평균";
+"share_success_rate" = "달성률";
+"share_total_steps_year" = "올해 총 걸음 수";

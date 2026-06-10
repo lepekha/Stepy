@@ -1,0 +1,7 @@
+Version initiale.
+
+- Compteur de pas via Apple Santé
+- Heatmap annuelle
+- Suivi d'objectif quotidien
+- Widgets d'écran d'accueil
+- Cartes de progression à partager

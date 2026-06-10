@@ -1,0 +1,1 @@
+walking,fitness,activity,health,move,exercise,calorie,distance,heatmap,streak,widget,history,walk

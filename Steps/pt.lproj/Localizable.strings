@@ -1,0 +1,65 @@
+/* Localizable.strings — Portuguese */
+
+"app_name" = "Steps";
+
+"today_label" = "HOJE";
+"steps_unit" = "passos";
+"goal_reached" = "Meta atingida";
+"goal_reached_multiline" = "Meta\natingida";
+"goal_reached_with_amount_format" = "Meta de %@ passos atingida";
+"percent_of_goal_format" = "%d%% da meta";
+"steps_progress_format" = "%@ / %@ passos";
+"steps_in_last_year" = "passos este ano";
+
+"daily_goal" = "Meta diária";
+"done" = "Concluído";
+"steps_per_day" = "passos por dia";
+"stepper_label" = "±500 passos";
+
+"daily_avg" = "MÉDIA DIÁRIA";
+"total_label" = "TOTAL";
+"record_label" = "RECORDE";
+"days_count_format" = "%d dias";
+"tap_any_day" = "toque em qualquer dia";
+
+"steps_day_format" = "passos · %@, %d";
+"legend_less" = "Menos";
+"legend_more" = "Mais";
+
+"month_label" = "MÊS";
+"of_goal_format" = "de meta de %@";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "Passos de hoje com mapa de calor de 3 meses.";
+"widget_small_name" = "Steps · Mês";
+"widget_small_description" = "Passos de hoje com mapa de calor do mês.";
+
+/* Widget — last updated */
+"updated_now" = "agora";
+"updated_min_ago_format" = "há %d min";
+"updated_hours_ago_format" = "há %d h";
+"last_update_label" = "ATUAL.";
+
+/* Share Sheet */
+"share_your_progress" = "Compartilhar progresso";
+"share_today" = "Hoje";
+"share_weekly" = "Semanal";
+"share_year" = "Ano";
+"share_day" = "Dia";
+"share_preparing" = "Preparando…";
+"share_button" = "Compartilhar";
+"share_cancel" = "Cancelar";
+"share_steps_today" = "passos hoje";
+"share_avg_per_day" = "méd / dia";
+"share_total" = "total";
+"share_record" = "recorde";
+"share_goal_label" = "meta:";
+"share_this_week" = "Esta semana";
+"share_days_goal_reached_format" = "%d de %d dias · meta alcançada";
+"share_best_day" = "melhor dia";
+"share_goal_days" = "dias de meta";
+"share_total_steps" = "Total de passos";
+"share_record_day" = "Dia recorde";
+"share_days_at_goal" = "Dias na meta";
+"share_daily_avg" = "Méd. diária";
+"share_success_rate" = "Taxa de sucesso";
+"share_total_steps_year" = "passos totais este ano";

@@ -1,0 +1,65 @@
+/* Localizable.strings — German */
+
+"app_name" = "Steps";
+
+"today_label" = "HEUTE";
+"steps_unit" = "Schritte";
+"goal_reached" = "Ziel erreicht";
+"goal_reached_multiline" = "Ziel\nerreicht";
+"goal_reached_with_amount_format" = "Ziel %@ Schritte erreicht";
+"percent_of_goal_format" = "%d%% des Ziels";
+"steps_progress_format" = "%@ / %@ Schritte";
+"steps_in_last_year" = "Schritte dieses Jahr";
+
+"daily_goal" = "Tagesziel";
+"done" = "Fertig";
+"steps_per_day" = "Schritte pro Tag";
+"stepper_label" = "±500 Schritte";
+
+"daily_avg" = "TAGESDURCHSCHN.";
+"total_label" = "GESAMT";
+"record_label" = "REKORD";
+"days_count_format" = "%d Tage";
+"tap_any_day" = "Tag antippen";
+
+"steps_day_format" = "Schritte · %@, %d";
+"legend_less" = "Weniger";
+"legend_more" = "Mehr";
+
+"month_label" = "MONAT";
+"of_goal_format" = "von %@ Ziel";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "Heutige Schritte mit 3-Monats-Heatmap.";
+"widget_small_name" = "Steps · Monat";
+"widget_small_description" = "Heutige Schritte mit Monats-Heatmap.";
+
+/* Widget — last updated */
+"updated_now" = "jetzt";
+"updated_min_ago_format" = "vor %d Min.";
+"updated_hours_ago_format" = "vor %d Std.";
+"last_update_label" = "AKTUELL";
+
+/* Share Sheet */
+"share_your_progress" = "Fortschritt teilen";
+"share_today" = "Heute";
+"share_weekly" = "Wöchentlich";
+"share_year" = "Jahr";
+"share_day" = "Tag";
+"share_preparing" = "Vorbereitung…";
+"share_button" = "Teilen";
+"share_cancel" = "Abbrechen";
+"share_steps_today" = "Schritte heute";
+"share_avg_per_day" = "Ø / Tag";
+"share_total" = "Gesamt";
+"share_record" = "Rekord";
+"share_goal_label" = "Ziel:";
+"share_this_week" = "Diese Woche";
+"share_days_goal_reached_format" = "%d von %d Tagen · Ziel erreicht";
+"share_best_day" = "bester Tag";
+"share_goal_days" = "Zieltage";
+"share_total_steps" = "Schritte gesamt";
+"share_record_day" = "Rekordtag";
+"share_days_at_goal" = "Tage mit Ziel";
+"share_daily_avg" = "Täglicher Ø";
+"share_success_rate" = "Erfolgsquote";
+"share_total_steps_year" = "Schritte in diesem Jahr";

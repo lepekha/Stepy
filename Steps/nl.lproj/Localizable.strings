@@ -1,0 +1,65 @@
+/* Localizable.strings — Dutch */
+
+"app_name" = "Steps";
+
+"today_label" = "VANDAAG";
+"steps_unit" = "stappen";
+"goal_reached" = "Doel bereikt";
+"goal_reached_multiline" = "Doel\nbereikt";
+"goal_reached_with_amount_format" = "Doel van %@ stappen bereikt";
+"percent_of_goal_format" = "%d%% van doel";
+"steps_progress_format" = "%@ / %@ stappen";
+"steps_in_last_year" = "stappen dit jaar";
+
+"daily_goal" = "Dagelijks doel";
+"done" = "Klaar";
+"steps_per_day" = "stappen per dag";
+"stepper_label" = "±500 stappen";
+
+"daily_avg" = "DAGELIJKS GEM.";
+"total_label" = "TOTAAL";
+"record_label" = "RECORD";
+"days_count_format" = "%d dagen";
+"tap_any_day" = "tik op een dag";
+
+"steps_day_format" = "stappen · %@, %d";
+"legend_less" = "Minder";
+"legend_more" = "Meer";
+
+"month_label" = "MAAND";
+"of_goal_format" = "van doel %@";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "Stappen van vandaag met 3-maands heatmap.";
+"widget_small_name" = "Steps · Maand";
+"widget_small_description" = "Stappen van vandaag met maandelijkse heatmap.";
+
+/* Widget — last updated */
+"updated_now" = "nu";
+"updated_min_ago_format" = "%d min geleden";
+"updated_hours_ago_format" = "%d u geleden";
+"last_update_label" = "UPDATE";
+
+/* Share Sheet */
+"share_your_progress" = "Deel uw voortgang";
+"share_today" = "Vandaag";
+"share_weekly" = "Wekelijks";
+"share_year" = "Jaar";
+"share_day" = "Dag";
+"share_preparing" = "Voorbereiden…";
+"share_button" = "Delen";
+"share_cancel" = "Annuleren";
+"share_steps_today" = "stappen vandaag";
+"share_avg_per_day" = "gem / dag";
+"share_total" = "totaal";
+"share_record" = "record";
+"share_goal_label" = "doel:";
+"share_this_week" = "Deze week";
+"share_days_goal_reached_format" = "%d van %d dagen · doel bereikt";
+"share_best_day" = "beste dag";
+"share_goal_days" = "doeldagen";
+"share_total_steps" = "Totaal stappen";
+"share_record_day" = "Recorddag";
+"share_days_at_goal" = "Dagen op doel";
+"share_daily_avg" = "Daggemiddelde";
+"share_success_rate" = "Slagingspercentage";
+"share_total_steps_year" = "totale stappen dit jaar";

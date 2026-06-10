@@ -1,0 +1,65 @@
+/* Localizable.strings — Japanese */
+
+"app_name" = "Steps";
+
+"today_label" = "今日";
+"steps_unit" = "歩";
+"goal_reached" = "目標達成";
+"goal_reached_multiline" = "目標\n達成";
+"goal_reached_with_amount_format" = "%@歩の目標達成";
+"percent_of_goal_format" = "目標の%d%%";
+"steps_progress_format" = "%@ / %@ 歩";
+"steps_in_last_year" = "今年の歩数";
+
+"daily_goal" = "1日の目標";
+"done" = "完了";
+"steps_per_day" = "1日あたりの歩数";
+"stepper_label" = "±500 歩";
+
+"daily_avg" = "1日平均";
+"total_label" = "合計";
+"record_label" = "記録";
+"days_count_format" = "%d 日間";
+"tap_any_day" = "日付をタップ";
+
+"steps_day_format" = "歩 · %@, %d";
+"legend_less" = "少ない";
+"legend_more" = "多い";
+
+"month_label" = "今月";
+"of_goal_format" = "%@ 目標中";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "今日の歩数と3ヶ月のヒートマップ。";
+"widget_small_name" = "Steps · 今月";
+"widget_small_description" = "今日の歩数と今月のヒートマップ。";
+
+/* Widget — last updated */
+"updated_now" = "たった今";
+"updated_min_ago_format" = "%d分前";
+"updated_hours_ago_format" = "%d時間前";
+"last_update_label" = "更新";
+
+/* Share Sheet */
+"share_your_progress" = "進捗をシェア";
+"share_today" = "今日";
+"share_weekly" = "週間";
+"share_year" = "年間";
+"share_day" = "日";
+"share_preparing" = "準備中…";
+"share_button" = "シェア";
+"share_cancel" = "キャンセル";
+"share_steps_today" = "今日の歩数";
+"share_avg_per_day" = "平均/日";
+"share_total" = "合計";
+"share_record" = "最高記録";
+"share_goal_label" = "目標:";
+"share_this_week" = "今週";
+"share_days_goal_reached_format" = "%d日/%d日 · 目標達成";
+"share_best_day" = "最高の日";
+"share_goal_days" = "目標達成日";
+"share_total_steps" = "総歩数";
+"share_record_day" = "最高記録日";
+"share_days_at_goal" = "目標達成日数";
+"share_daily_avg" = "1日平均";
+"share_success_rate" = "達成率";
+"share_total_steps_year" = "今年の総歩数";

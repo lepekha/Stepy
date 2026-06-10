@@ -1,0 +1,65 @@
+/* Localizable.strings — Hindi */
+
+"app_name" = "Steps";
+
+"today_label" = "आज";
+"steps_unit" = "कदम";
+"goal_reached" = "लक्ष्य पूरा हुआ";
+"goal_reached_multiline" = "लक्ष्य\nपूरा हुआ";
+"goal_reached_with_amount_format" = "%@ कदम का लक्ष्य पूरा हुआ";
+"percent_of_goal_format" = "लक्ष्य का %d%%";
+"steps_progress_format" = "%@ / %@ कदम";
+"steps_in_last_year" = "इस साल के कदम";
+
+"daily_goal" = "दैनिक लक्ष्य";
+"done" = "हो गया";
+"steps_per_day" = "कदम प्रतिदिन";
+"stepper_label" = "±500 कदम";
+
+"daily_avg" = "दैनिक औसत";
+"total_label" = "कुल";
+"record_label" = "रिकॉर्ड";
+"days_count_format" = "%d दिन";
+"tap_any_day" = "कोई भी दिन छुएं";
+
+"steps_day_format" = "कदम · %@, %d";
+"legend_less" = "कम";
+"legend_more" = "अधिक";
+
+"month_label" = "महीना";
+"of_goal_format" = "%@ लक्ष्य में से";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "आज के कदम और 3 महीने की हीटमैप.";
+"widget_small_name" = "Steps · महीना";
+"widget_small_description" = "आज के कदम और इस महीने की हीटमैप.";
+
+/* Widget — last updated */
+"updated_now" = "अभी";
+"updated_min_ago_format" = "%d मिनट पहले";
+"updated_hours_ago_format" = "%d घं पहले";
+"last_update_label" = "अपडेट";
+
+/* Share Sheet */
+"share_your_progress" = "अपनी प्रगति साझा करें";
+"share_today" = "आज";
+"share_weekly" = "साप्ताहिक";
+"share_year" = "वर्ष";
+"share_day" = "दिन";
+"share_preparing" = "तैयारी हो रही है…";
+"share_button" = "साझा करें";
+"share_cancel" = "रद्द करें";
+"share_steps_today" = "आज के कदम";
+"share_avg_per_day" = "औसत / दिन";
+"share_total" = "कुल";
+"share_record" = "रिकॉर्ड";
+"share_goal_label" = "लक्ष्य:";
+"share_this_week" = "इस सप्ताह";
+"share_days_goal_reached_format" = "%d में से %d दिन · लक्ष्य प्राप्त";
+"share_best_day" = "सबसे अच्छा दिन";
+"share_goal_days" = "लक्ष्य दिन";
+"share_total_steps" = "कुल कदम";
+"share_record_day" = "रिकॉर्ड दिन";
+"share_days_at_goal" = "लक्ष्य पर दिन";
+"share_daily_avg" = "दैनिक औसत";
+"share_success_rate" = "सफलता दर";
+"share_total_steps_year" = "इस साल कुल कदम";

@@ -1,0 +1,1 @@
+caminhar,fitness,atividade,saúde,movimento,exercício,calorias,distância,mapa de calor,widget

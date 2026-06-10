@@ -1,0 +1,65 @@
+/* Localizable.strings — Chinese Simplified */
+
+"app_name" = "Steps";
+
+"today_label" = "今天";
+"steps_unit" = "步";
+"goal_reached" = "已达成目标";
+"goal_reached_multiline" = "已达成\n目标";
+"goal_reached_with_amount_format" = "已达成%@步目标";
+"percent_of_goal_format" = "目标的%d%%";
+"steps_progress_format" = "%@ / %@步";
+"steps_in_last_year" = "今年的步数";
+
+"daily_goal" = "每日目标";
+"done" = "完成";
+"steps_per_day" = "步/天";
+"stepper_label" = "±500步";
+
+"daily_avg" = "日均";
+"total_label" = "总计";
+"record_label" = "记录";
+"days_count_format" = "%d天";
+"tap_any_day" = "点击任意一天";
+
+"steps_day_format" = "步 · %@, %d";
+"legend_less" = "少";
+"legend_more" = "多";
+
+"month_label" = "本月";
+"of_goal_format" = "目标%@中";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "今日步数及3个月热力图。";
+"widget_small_name" = "Steps · 本月";
+"widget_small_description" = "今日步数及本月热力图。";
+
+/* Widget — last updated */
+"updated_now" = "刚刚";
+"updated_min_ago_format" = "%d 分钟前";
+"updated_hours_ago_format" = "%d 小时前";
+"last_update_label" = "已更新";
+
+/* Share Sheet */
+"share_your_progress" = "分享您的进度";
+"share_today" = "今天";
+"share_weekly" = "本周";
+"share_year" = "全年";
+"share_day" = "当天";
+"share_preparing" = "准备中…";
+"share_button" = "分享";
+"share_cancel" = "取消";
+"share_steps_today" = "今日步数";
+"share_avg_per_day" = "平均/天";
+"share_total" = "合计";
+"share_record" = "最高";
+"share_goal_label" = "目标:";
+"share_this_week" = "本周";
+"share_days_goal_reached_format" = "%d/%d天 · 达成目标";
+"share_best_day" = "最佳日";
+"share_goal_days" = "达标天数";
+"share_total_steps" = "总步数";
+"share_record_day" = "最高记录日";
+"share_days_at_goal" = "达标天数";
+"share_daily_avg" = "日均步数";
+"share_success_rate" = "达成率";
+"share_total_steps_year" = "今年总步数";

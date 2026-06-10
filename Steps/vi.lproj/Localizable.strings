@@ -1,0 +1,65 @@
+/* Localizable.strings — Vietnamese */
+
+"app_name" = "Steps";
+
+"today_label" = "HÔM NAY";
+"steps_unit" = "bước";
+"goal_reached" = "Đã đạt mục tiêu";
+"goal_reached_multiline" = "Đã đạt\nmục tiêu";
+"goal_reached_with_amount_format" = "Đã đạt mục tiêu %@ bước";
+"percent_of_goal_format" = "%d%% mục tiêu";
+"steps_progress_format" = "%@ / %@ bước";
+"steps_in_last_year" = "bước trong năm nay";
+
+"daily_goal" = "Mục tiêu hàng ngày";
+"done" = "Xong";
+"steps_per_day" = "bước mỗi ngày";
+"stepper_label" = "±500 bước";
+
+"daily_avg" = "TB HÀNG NGÀY";
+"total_label" = "TỔNG";
+"record_label" = "KỶ LỤC";
+"days_count_format" = "%d ngày";
+"tap_any_day" = "chạm vào bất kỳ ngày nào";
+
+"steps_day_format" = "bước · %@, %d";
+"legend_less" = "Ít hơn";
+"legend_more" = "Nhiều hơn";
+
+"month_label" = "THÁNG";
+"of_goal_format" = "trong mục tiêu %@";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "Bước chân hôm nay với bản đồ nhiệt 3 tháng.";
+"widget_small_name" = "Steps · Tháng";
+"widget_small_description" = "Bước chân hôm nay với bản đồ nhiệt tháng này.";
+
+/* Widget — last updated */
+"updated_now" = "vừa xong";
+"updated_min_ago_format" = "%d phút trước";
+"updated_hours_ago_format" = "%d giờ trước";
+"last_update_label" = "CẬP NHẬT";
+
+/* Share Sheet */
+"share_your_progress" = "Chia sẻ tiến trình";
+"share_today" = "Hôm nay";
+"share_weekly" = "Hàng tuần";
+"share_year" = "Năm";
+"share_day" = "Ngày";
+"share_preparing" = "Đang chuẩn bị…";
+"share_button" = "Chia sẻ";
+"share_cancel" = "Hủy";
+"share_steps_today" = "bước hôm nay";
+"share_avg_per_day" = "tb / ngày";
+"share_total" = "tổng";
+"share_record" = "kỷ lục";
+"share_goal_label" = "mục tiêu:";
+"share_this_week" = "Tuần này";
+"share_days_goal_reached_format" = "%d trên %d ngày · đạt mục tiêu";
+"share_best_day" = "ngày tốt nhất";
+"share_goal_days" = "ngày mục tiêu";
+"share_total_steps" = "Tổng bước chân";
+"share_record_day" = "Ngày kỷ lục";
+"share_days_at_goal" = "Ngày đạt mục tiêu";
+"share_daily_avg" = "TB hàng ngày";
+"share_success_rate" = "Tỷ lệ thành công";
+"share_total_steps_year" = "tổng bước chân năm nay";

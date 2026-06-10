@@ -1,0 +1,7 @@
+Rilis pertama.
+
+- Penghitung langkah lewat Apple Health
+- Peta panas tahunan
+- Pelacakan target harian
+- Widget layar utama
+- Kartu progres yang bisa dibagikan

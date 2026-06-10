@@ -1,0 +1,7 @@
+Versione iniziale.
+
+- Contapassi con Apple Salute
+- Heatmap annuale
+- Monitoraggio obiettivo giornaliero
+- Widget per la schermata Home
+- Schede dei progressi da condividere

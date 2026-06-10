@@ -1,0 +1,77 @@
+/*
+  Localizable.strings
+  Steps (Ukrainian)
+
+  Created by Ruslan Lepekha on 06.06.2026.
+
+*/
+
+/* App */
+"app_name" = "Steps";
+
+/* Home */
+"today_label" = "СЬОГОДНІ";
+"steps_unit" = "кроків";
+"goal_reached" = "Ціль досягнута";
+"goal_reached_multiline" = "Ціль\nдосягнута";
+"goal_reached_with_amount_format" = "Ціль %@ кроків досягнуто";
+"percent_of_goal_format" = "%d%% від цілі";
+"steps_progress_format" = "%@ / %@ кроків";
+"steps_in_last_year" = "кроків цього року";
+
+/* Goal Editor */
+"daily_goal" = "Денна ціль";
+"done" = "Готово";
+"steps_per_day" = "кроків на день";
+"stepper_label" = "±500 кроків";
+
+/* Stats Row */
+"daily_avg" = "СЕРЕДНЄ";
+"total_label" = "ВСЬОГО";
+"record_label" = "РЕКОРД";
+"days_count_format" = "%d днів";
+"tap_any_day" = "торкніться будь-якого дня";
+
+/* Heatmap */
+"steps_day_format" = "кроків · %@, %d";
+"legend_less" = "Менше";
+"legend_more" = "Більше";
+
+/* Widget */
+"month_label" = "МІСЯЦЬ";
+"of_goal_format" = "з %@ цілі";
+"widget_medium_name" = "Кроки";
+"widget_medium_description" = "Кроки за сьогодні та теплова карта за 3 місяці.";
+"widget_small_name" = "Кроки · Місяць";
+"widget_small_description" = "Кроки за сьогодні та теплова карта за місяць.";
+
+/* Widget — last updated */
+"updated_now" = "щойно";
+"updated_min_ago_format" = "%d хв тому";
+"updated_hours_ago_format" = "%d год тому";
+"last_update_label" = "ОНОВЛЕНО";
+
+/* Share Sheet */
+"share_your_progress" = "Поділитися прогресом";
+"share_today" = "Сьогодні";
+"share_weekly" = "Тиждень";
+"share_year" = "Рік";
+"share_day" = "День";
+"share_preparing" = "Підготовка…";
+"share_button" = "Поділитися";
+"share_cancel" = "Скасувати";
+"share_steps_today" = "кроків сьогодні";
+"share_avg_per_day" = "сер / день";
+"share_total" = "всього";
+"share_record" = "рекорд";
+"share_goal_label" = "ціль:";
+"share_this_week" = "Цього тижня";
+"share_days_goal_reached_format" = "%d з %d днів · ціль досягнута";
+"share_best_day" = "найкращий день";
+"share_goal_days" = "днів з ціллю";
+"share_total_steps" = "Кроків всього";
+"share_record_day" = "День рекорду";
+"share_days_at_goal" = "Днів з ціллю";
+"share_daily_avg" = "Сер. за день";
+"share_success_rate" = "% успіху";
+"share_total_steps_year" = "кроків за рік";

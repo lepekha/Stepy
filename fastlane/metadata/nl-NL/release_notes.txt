@@ -1,0 +1,7 @@
+Eerste versie.
+
+- Stappenteller via Apple Gezondheid
+- Jaar-heatmap
+- Dagdoel bijhouden
+- Beginscherm-widgets
+- Deelbare voortgangskaarten

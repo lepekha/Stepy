@@ -1,0 +1,65 @@
+/* Localizable.strings — Polish */
+
+"app_name" = "Steps";
+
+"today_label" = "DZIŚ";
+"steps_unit" = "kroków";
+"goal_reached" = "Cel osiągnięty";
+"goal_reached_multiline" = "Cel\nosiągnięty";
+"goal_reached_with_amount_format" = "Cel %@ kroków osiągnięty";
+"percent_of_goal_format" = "%d%% celu";
+"steps_progress_format" = "%@ / %@ kroków";
+"steps_in_last_year" = "kroków w tym roku";
+
+"daily_goal" = "Dzienny cel";
+"done" = "Gotowe";
+"steps_per_day" = "kroków dziennie";
+"stepper_label" = "±500 kroków";
+
+"daily_avg" = "DZIENNA ŚREDNIA";
+"total_label" = "ŁĄCZNIE";
+"record_label" = "REKORD";
+"days_count_format" = "%d dni";
+"tap_any_day" = "dotknij dowolny dzień";
+
+"steps_day_format" = "kroków · %@, %d";
+"legend_less" = "Mniej";
+"legend_more" = "Więcej";
+
+"month_label" = "MIESIĄC";
+"of_goal_format" = "z celu %@";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "Dzisiejsze kroki z mapą ciepła za 3 miesiące.";
+"widget_small_name" = "Steps · Miesiąc";
+"widget_small_description" = "Dzisiejsze kroki z mapą ciepła na bieżący miesiąc.";
+
+/* Widget — last updated */
+"updated_now" = "teraz";
+"updated_min_ago_format" = "%d min temu";
+"updated_hours_ago_format" = "%d godz. temu";
+"last_update_label" = "AKT.";
+
+/* Share Sheet */
+"share_your_progress" = "Podziel się postępami";
+"share_today" = "Dzisiaj";
+"share_weekly" = "Tygodniowy";
+"share_year" = "Rok";
+"share_day" = "Dzień";
+"share_preparing" = "Przygotowywanie…";
+"share_button" = "Udostępnij";
+"share_cancel" = "Anuluj";
+"share_steps_today" = "kroków dzisiaj";
+"share_avg_per_day" = "śr / dzień";
+"share_total" = "łącznie";
+"share_record" = "rekord";
+"share_goal_label" = "cel:";
+"share_this_week" = "W tym tygodniu";
+"share_days_goal_reached_format" = "%d z %d dni · cel osiągnięty";
+"share_best_day" = "najlepszy dzień";
+"share_goal_days" = "dni celu";
+"share_total_steps" = "Łączna liczba kroków";
+"share_record_day" = "Dzień rekordu";
+"share_days_at_goal" = "Dni z celem";
+"share_daily_avg" = "Śr. dzienna";
+"share_success_rate" = "Wskaźnik sukcesu";
+"share_total_steps_year" = "kroków w tym roku";

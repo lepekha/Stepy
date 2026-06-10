@@ -1,0 +1,65 @@
+/* Localizable.strings — Russian */
+
+"app_name" = "Steps";
+
+"today_label" = "СЕГОДНЯ";
+"steps_unit" = "шагов";
+"goal_reached" = "Цель достигнута";
+"goal_reached_multiline" = "Цель\nдостигнута";
+"goal_reached_with_amount_format" = "Цель %@ шагов достигнута";
+"percent_of_goal_format" = "%d%% от цели";
+"steps_progress_format" = "%@ / %@ шагов";
+"steps_in_last_year" = "шагов в этом году";
+
+"daily_goal" = "Дневная цель";
+"done" = "Готово";
+"steps_per_day" = "шагов в день";
+"stepper_label" = "±500 шагов";
+
+"daily_avg" = "СРЕДНЕЕ";
+"total_label" = "ВСЕГО";
+"record_label" = "РЕКОРД";
+"days_count_format" = "%d дней";
+"tap_any_day" = "нажмите на любой день";
+
+"steps_day_format" = "шагов · %@, %d";
+"legend_less" = "Меньше";
+"legend_more" = "Больше";
+
+"month_label" = "МЕСЯЦ";
+"of_goal_format" = "из цели %@";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "Шаги за сегодня с тепловой картой за 3 месяца.";
+"widget_small_name" = "Steps · Месяц";
+"widget_small_description" = "Шаги за сегодня с тепловой картой за месяц.";
+
+/* Widget — last updated */
+"updated_now" = "только что";
+"updated_min_ago_format" = "%d мин назад";
+"updated_hours_ago_format" = "%d ч назад";
+"last_update_label" = "ОБНОВЛЕНО";
+
+/* Share Sheet */
+"share_your_progress" = "Поделиться прогрессом";
+"share_today" = "Сегодня";
+"share_weekly" = "Неделя";
+"share_year" = "Год";
+"share_day" = "День";
+"share_preparing" = "Подготовка…";
+"share_button" = "Поделиться";
+"share_cancel" = "Отмена";
+"share_steps_today" = "шагов сегодня";
+"share_avg_per_day" = "ср / день";
+"share_total" = "всего";
+"share_record" = "рекорд";
+"share_goal_label" = "цель:";
+"share_this_week" = "На этой неделе";
+"share_days_goal_reached_format" = "%d из %d дней · цель достигнута";
+"share_best_day" = "лучший день";
+"share_goal_days" = "дней с целью";
+"share_total_steps" = "Шагов всего";
+"share_record_day" = "День рекорда";
+"share_days_at_goal" = "Дней у цели";
+"share_daily_avg" = "Ср. в день";
+"share_success_rate" = "% успеха";
+"share_total_steps_year" = "шагов за год";

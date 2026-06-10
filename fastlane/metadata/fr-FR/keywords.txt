@@ -1,0 +1,1 @@
+marche,fitness,activité,santé,mouvement,exercice,calories,distance,heatmap,série,widget,historique

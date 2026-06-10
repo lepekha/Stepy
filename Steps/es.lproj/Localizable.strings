@@ -1,0 +1,65 @@
+/* Localizable.strings — Spanish */
+
+"app_name" = "Steps";
+
+"today_label" = "HOY";
+"steps_unit" = "pasos";
+"goal_reached" = "Meta alcanzada";
+"goal_reached_multiline" = "Meta\nalcanzada";
+"goal_reached_with_amount_format" = "Meta de %@ pasos alcanzada";
+"percent_of_goal_format" = "%d%% de la meta";
+"steps_progress_format" = "%@ / %@ pasos";
+"steps_in_last_year" = "pasos este año";
+
+"daily_goal" = "Meta diaria";
+"done" = "Listo";
+"steps_per_day" = "pasos por día";
+"stepper_label" = "±500 pasos";
+
+"daily_avg" = "PROMEDIO DIARIO";
+"total_label" = "TOTAL";
+"record_label" = "RÉCORD";
+"days_count_format" = "%d días";
+"tap_any_day" = "toca cualquier día";
+
+"steps_day_format" = "pasos · %@, %d";
+"legend_less" = "Menos";
+"legend_more" = "Más";
+
+"month_label" = "MES";
+"of_goal_format" = "de meta de %@";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "Pasos de hoy con mapa de calor de 3 meses.";
+"widget_small_name" = "Steps · Mes";
+"widget_small_description" = "Pasos de hoy con mapa de calor del mes.";
+
+/* Widget — last updated */
+"updated_now" = "ahora";
+"updated_min_ago_format" = "hace %d min";
+"updated_hours_ago_format" = "hace %d h";
+"last_update_label" = "ACTUAL.";
+
+/* Share Sheet */
+"share_your_progress" = "Comparte tu progreso";
+"share_today" = "Hoy";
+"share_weekly" = "Semanal";
+"share_year" = "Año";
+"share_day" = "Día";
+"share_preparing" = "Preparando…";
+"share_button" = "Compartir";
+"share_cancel" = "Cancelar";
+"share_steps_today" = "pasos hoy";
+"share_avg_per_day" = "prom / día";
+"share_total" = "total";
+"share_record" = "récord";
+"share_goal_label" = "meta:";
+"share_this_week" = "Esta semana";
+"share_days_goal_reached_format" = "%d de %d días · meta alcanzada";
+"share_best_day" = "mejor día";
+"share_goal_days" = "días de meta";
+"share_total_steps" = "Pasos totales";
+"share_record_day" = "Día récord";
+"share_days_at_goal" = "Días en meta";
+"share_daily_avg" = "Prom. diario";
+"share_success_rate" = "Tasa de éxito";
+"share_total_steps_year" = "pasos totales este año";

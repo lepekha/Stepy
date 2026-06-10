@@ -1,0 +1,65 @@
+/* Localizable.strings — Hebrew */
+
+"app_name" = "Steps";
+
+"today_label" = "היום";
+"steps_unit" = "צעדים";
+"goal_reached" = "היעד הושג";
+"goal_reached_multiline" = "היעד\nהושג";
+"goal_reached_with_amount_format" = "יעד %@ צעדים הושג";
+"percent_of_goal_format" = "%d%% מהיעד";
+"steps_progress_format" = "%@ / %@ צעדים";
+"steps_in_last_year" = "צעדים השנה";
+
+"daily_goal" = "יעד יומי";
+"done" = "סיום";
+"steps_per_day" = "צעדים ביום";
+"stepper_label" = "±500 צעדים";
+
+"daily_avg" = "ממוצע יומי";
+"total_label" = "סה\"כ";
+"record_label" = "שיא";
+"days_count_format" = "%d ימים";
+"tap_any_day" = "הקש על יום כלשהו";
+
+"steps_day_format" = "צעדים · %@, %d";
+"legend_less" = "פחות";
+"legend_more" = "יותר";
+
+"month_label" = "חודש";
+"of_goal_format" = "מיעד %@";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "צעדי היום עם מפת חום של 3 חודשים.";
+"widget_small_name" = "Steps · חודש";
+"widget_small_description" = "צעדי היום עם מפת חום של החודש.";
+
+/* Widget — last updated */
+"updated_now" = "עכשיו";
+"updated_min_ago_format" = "לפני %d דק׳";
+"updated_hours_ago_format" = "לפני %d שע׳";
+"last_update_label" = "עודכן";
+
+/* Share Sheet */
+"share_your_progress" = "שתף את ההתקדמות שלך";
+"share_today" = "היום";
+"share_weekly" = "שבועי";
+"share_year" = "שנה";
+"share_day" = "יום";
+"share_preparing" = "מכין…";
+"share_button" = "שתף";
+"share_cancel" = "ביטול";
+"share_steps_today" = "צעדים היום";
+"share_avg_per_day" = "ממוצע / יום";
+"share_total" = "סה\"כ";
+"share_record" = "שיא";
+"share_goal_label" = "יעד:";
+"share_this_week" = "השבוע הזה";
+"share_days_goal_reached_format" = "%d מתוך %d ימים · היעד הושג";
+"share_best_day" = "היום הטוב ביותר";
+"share_goal_days" = "ימי יעד";
+"share_total_steps" = "סה\"כ צעדים";
+"share_record_day" = "יום שיא";
+"share_days_at_goal" = "ימים ביעד";
+"share_daily_avg" = "ממוצע יומי";
+"share_success_rate" = "שיעור הצלחה";
+"share_total_steps_year" = "סה\"כ צעדים השנה";

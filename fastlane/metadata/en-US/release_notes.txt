@@ -1,0 +1,7 @@
+Initial release.
+
+- Step counter powered by Apple Health
+- Year-long heatmap
+- Daily goal tracking
+- Home screen widgets
+- Shareable progress cards

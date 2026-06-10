@@ -1,0 +1,7 @@
+İlk sürüm.
+
+- Apple Sağlık ile adım sayar
+- Yıllık ısı haritası
+- Günlük hedef takibi
+- Ana ekran widget'ları
+- Paylaşılabilir ilerleme kartları

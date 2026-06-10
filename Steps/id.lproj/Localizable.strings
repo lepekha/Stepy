@@ -1,0 +1,65 @@
+/* Localizable.strings — Indonesian */
+
+"app_name" = "Steps";
+
+"today_label" = "HARI INI";
+"steps_unit" = "langkah";
+"goal_reached" = "Target tercapai";
+"goal_reached_multiline" = "Target\ntercapai";
+"goal_reached_with_amount_format" = "Target %@ langkah tercapai";
+"percent_of_goal_format" = "%d%% dari target";
+"steps_progress_format" = "%@ / %@ langkah";
+"steps_in_last_year" = "langkah tahun ini";
+
+"daily_goal" = "Target Harian";
+"done" = "Selesai";
+"steps_per_day" = "langkah per hari";
+"stepper_label" = "±500 langkah";
+
+"daily_avg" = "RATA-RATA HARIAN";
+"total_label" = "TOTAL";
+"record_label" = "REKOR";
+"days_count_format" = "%d hari";
+"tap_any_day" = "ketuk hari mana saja";
+
+"steps_day_format" = "langkah · %@, %d";
+"legend_less" = "Sedikit";
+"legend_more" = "Banyak";
+
+"month_label" = "BULAN";
+"of_goal_format" = "dari target %@";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "Langkah hari ini dengan peta panas 3 bulan.";
+"widget_small_name" = "Steps · Bulan";
+"widget_small_description" = "Langkah hari ini dengan peta panas bulan ini.";
+
+/* Widget — last updated */
+"updated_now" = "sekarang";
+"updated_min_ago_format" = "%d mnt lalu";
+"updated_hours_ago_format" = "%d j lalu";
+"last_update_label" = "DIPERBARUI";
+
+/* Share Sheet */
+"share_your_progress" = "Bagikan kemajuan Anda";
+"share_today" = "Hari ini";
+"share_weekly" = "Mingguan";
+"share_year" = "Tahun";
+"share_day" = "Hari";
+"share_preparing" = "Mempersiapkan…";
+"share_button" = "Bagikan";
+"share_cancel" = "Batal";
+"share_steps_today" = "langkah hari ini";
+"share_avg_per_day" = "rata-rata / hari";
+"share_total" = "total";
+"share_record" = "rekor";
+"share_goal_label" = "target:";
+"share_this_week" = "Minggu ini";
+"share_days_goal_reached_format" = "%d dari %d hari · target tercapai";
+"share_best_day" = "hari terbaik";
+"share_goal_days" = "hari target";
+"share_total_steps" = "Total langkah";
+"share_record_day" = "Hari rekor";
+"share_days_at_goal" = "Hari di target";
+"share_daily_avg" = "Rata-rata harian";
+"share_success_rate" = "Tingkat keberhasilan";
+"share_total_steps_year" = "total langkah tahun ini";

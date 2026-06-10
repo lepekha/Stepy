@@ -1,0 +1,7 @@
+Pierwsza wersja.
+
+- Licznik kroków z Apple Zdrowie
+- Roczna mapa ciepła
+- Śledzenie dziennego celu
+- Widżety ekranu głównego
+- Karty postępów do udostępniania

@@ -1,0 +1,77 @@
+/*
+  Localizable.strings
+  Steps
+
+  Created by Ruslan Lepekha on 06.06.2026.
+
+*/
+
+/* App */
+"app_name" = "Steps";
+
+/* Home */
+"today_label" = "TODAY";
+"steps_unit" = "steps";
+"goal_reached" = "Goal reached";
+"goal_reached_multiline" = "Goal\nreached";
+"goal_reached_with_amount_format" = "Goal %@ steps reached";
+"percent_of_goal_format" = "%d%% of goal";
+"steps_progress_format" = "%@ / %@ steps";
+"steps_in_last_year" = "steps this year";
+
+/* Goal Editor */
+"daily_goal" = "Daily Goal";
+"done" = "Done";
+"steps_per_day" = "steps per day";
+"stepper_label" = "±500 steps";
+
+/* Stats Row */
+"daily_avg" = "DAILY AVG";
+"total_label" = "TOTAL";
+"record_label" = "RECORD";
+"days_count_format" = "%d days";
+"tap_any_day" = "tap any day";
+
+/* Heatmap */
+"steps_day_format" = "steps · %@, %d";
+"legend_less" = "Less";
+"legend_more" = "More";
+
+/* Widget */
+"month_label" = "MONTH";
+"of_goal_format" = "of %@ goal";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "Today's steps with 3-month heatmap.";
+"widget_small_name" = "Steps · Month";
+"widget_small_description" = "Today's steps with this month's heatmap.";
+
+/* Widget — last updated */
+"updated_now" = "now";
+"updated_min_ago_format" = "%d min. ago";
+"updated_hours_ago_format" = "%d h. ago";
+"last_update_label" = "UPDATED";
+
+/* Share Sheet */
+"share_your_progress" = "Share your progress";
+"share_today" = "Today";
+"share_weekly" = "Weekly";
+"share_year" = "Year";
+"share_day" = "Day";
+"share_preparing" = "Preparing…";
+"share_button" = "Share";
+"share_cancel" = "Cancel";
+"share_steps_today" = "steps today";
+"share_avg_per_day" = "avg / day";
+"share_total" = "total";
+"share_record" = "record";
+"share_goal_label" = "goal:";
+"share_this_week" = "This week";
+"share_days_goal_reached_format" = "%d of %d days · goal reached";
+"share_best_day" = "best day";
+"share_goal_days" = "goal days";
+"share_total_steps" = "Total steps";
+"share_record_day" = "Record day";
+"share_days_at_goal" = "Days at goal";
+"share_daily_avg" = "Daily avg";
+"share_success_rate" = "Success rate";
+"share_total_steps_year" = "total steps this year";

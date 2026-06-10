@@ -1,0 +1,65 @@
+/* Localizable.strings — French */
+
+"app_name" = "Steps";
+
+"today_label" = "AUJOURD'HUI";
+"steps_unit" = "pas";
+"goal_reached" = "Objectif atteint";
+"goal_reached_multiline" = "Objectif\natteint";
+"goal_reached_with_amount_format" = "Objectif %@ pas atteint";
+"percent_of_goal_format" = "%d%% de l'objectif";
+"steps_progress_format" = "%@ / %@ pas";
+"steps_in_last_year" = "pas cette année";
+
+"daily_goal" = "Objectif quotidien";
+"done" = "OK";
+"steps_per_day" = "pas par jour";
+"stepper_label" = "±500 pas";
+
+"daily_avg" = "MOY. QUOTIDIENNE";
+"total_label" = "TOTAL";
+"record_label" = "RECORD";
+"days_count_format" = "%d jours";
+"tap_any_day" = "touchez un jour";
+
+"steps_day_format" = "pas · %@, %d";
+"legend_less" = "Moins";
+"legend_more" = "Plus";
+
+"month_label" = "MOIS";
+"of_goal_format" = "sur %@ d'objectif";
+"widget_medium_name" = "Steps";
+"widget_medium_description" = "Pas du jour avec carte de chaleur sur 3 mois.";
+"widget_small_name" = "Steps · Mois";
+"widget_small_description" = "Pas du jour avec carte de chaleur du mois.";
+
+/* Widget — last updated */
+"updated_now" = "maintenant";
+"updated_min_ago_format" = "il y a %d min";
+"updated_hours_ago_format" = "il y a %d h";
+"last_update_label" = "MAJ";
+
+/* Share Sheet */
+"share_your_progress" = "Partager vos progrès";
+"share_today" = "Aujourd'hui";
+"share_weekly" = "Hebdomadaire";
+"share_year" = "Année";
+"share_day" = "Jour";
+"share_preparing" = "Préparation…";
+"share_button" = "Partager";
+"share_cancel" = "Annuler";
+"share_steps_today" = "pas aujourd'hui";
+"share_avg_per_day" = "moy / jour";
+"share_total" = "total";
+"share_record" = "record";
+"share_goal_label" = "objectif :";
+"share_this_week" = "Cette semaine";
+"share_days_goal_reached_format" = "%d sur %d jours · objectif atteint";
+"share_best_day" = "meilleur jour";
+"share_goal_days" = "jours d'objectif";
+"share_total_steps" = "Total des pas";
+"share_record_day" = "Jour record";
+"share_days_at_goal" = "Jours à l'objectif";
+"share_daily_avg" = "Moy. quotidienne";
+"share_success_rate" = "Taux de réussite";
+"share_total_steps_year" = "pas totaux cette année";

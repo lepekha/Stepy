@@ -1,0 +1,1 @@
+No account or login required. Stepy reads step data from Apple Health (HealthKit). On first launch the app requests read permission for Steps; please approve it. Note: HealthKit returns no data on the iOS Simulator — please test on a physical device with existing step history. All data stays on-device; the app has no backend.
