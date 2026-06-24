@@ -94,6 +94,58 @@ actor HealthKitService {
         if let q = liveQuery { store.stop(q); liveQuery = nil }
     }
 
+    /// Years that contain step data, earliest → current. Falls back to [current year].
+    func availableYears() async -> [Int] {
+        let current = Calendar.current.component(.year, from: Date())
+        guard isAvailable() else { return [current] }
+        let type = HKQuantityType(.stepCount)
+        let earliest: Date? = await withCheckedContinuation { cont in
+            let sort = NSSortDescriptor(key: HKSampleSortIdentifierStartDate, ascending: true)
+            let q = HKSampleQuery(sampleType: type, predicate: nil, limit: 1, sortDescriptors: [sort]) { _, samples, _ in
+                cont.resume(returning: samples?.first?.startDate)
+            }
+            store.execute(q)
+        }
+        guard let earliest else { return [current] }
+        let startYear = Calendar.current.component(.year, from: earliest)
+        guard startYear <= current else { return [current] }
+        return Array(startYear...current)
+    }
+
+    /// One calendar year of daily step counts. Empty only when HealthKit is unavailable.
+    func fetchYear(_ year: Int) async -> [StepDay] {
+        guard isAvailable() else { return [] }
+        let type = HKQuantityType(.stepCount)
+        let cal = Calendar.current
+        guard let start = cal.date(from: DateComponents(year: year, month: 1, day: 1)),
+              let yearEnd = cal.date(from: DateComponents(year: year, month: 12, day: 31)),
+              let predEnd = cal.date(byAdding: .day, value: 1, to: yearEnd)
+        else { return [] }
+
+        var comps = DateComponents(); comps.day = 1
+        let pred = HKQuery.predicateForSamples(withStart: start, end: predEnd)
+
+        return await withCheckedContinuation { (cont: CheckedContinuation<[StepDay], Never>) in
+            let q = HKStatisticsCollectionQuery(
+                quantityType: type,
+                quantitySamplePredicate: pred,
+                options: .cumulativeSum,
+                anchorDate: cal.startOfDay(for: start),
+                intervalComponents: comps
+            )
+            q.initialResultsHandler = { _, collection, _ in
+                guard let collection else { cont.resume(returning: []); return }
+                var days: [StepDay] = []
+                collection.enumerateStatistics(from: start, to: yearEnd) { stat, _ in
+                    let steps = Int(stat.sumQuantity()?.doubleValue(for: .count()) ?? 0)
+                    days.append(StepDay(id: days.count, date: stat.startDate, steps: steps))
+                }
+                cont.resume(returning: days)
+            }
+            store.execute(q)
+        }
+    }
+
     func enableBackgroundDelivery() {
         guard isAvailable() else { return }
         let stepType = HKQuantityType(.stepCount)

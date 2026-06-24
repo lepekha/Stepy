@@ -80,6 +80,8 @@ struct HomeScreen: View {
                 .kerning(0.3)
 
             Spacer()
+
+            yearPicker
         }
         .padding(.bottom, 14)
         .sheet(isPresented: $showingGoalEditor) {
@@ -94,6 +96,41 @@ struct HomeScreen: View {
             .presentationDetents([.height(410)])
             .presentationDragIndicator(.hidden)
         }
+    }
+
+    private var yearPicker: some View {
+        Menu {
+            ForEach(viewModel.availableYears.reversed(), id: \.self) { year in
+                Button {
+                    selectedDay = nil
+                    viewModel.selectYear(year)
+                } label: {
+                    if year == viewModel.selectedYear {
+                        Label(String(year), systemImage: "checkmark")
+                    } else {
+                        Text(String(year))
+                    }
+                }
+            }
+        } label: {
+            HStack(spacing: 5) {
+                Text(String(viewModel.selectedYear))
+                    .font(.system(size: 14, weight: .semibold))
+                    .monospacedDigit()
+                Image(systemName: "chevron.down")
+                    .font(.system(size: 9, weight: .bold))
+                    .opacity(0.6)
+            }
+            .foregroundColor(theme.text)
+            .padding(.leading, 11)
+            .padding(.trailing, 9)
+            .padding(.vertical, 6)
+            .modifier(YearChipGlass(isDark: isDark))
+            .contentShape(Capsule())
+        }
+        .menuStyle(.button)
+        .buttonStyle(.plain)
+        .disabled(viewModel.availableYears.count < 2)
     }
 
     // MARK: - Hero Section
@@ -209,21 +246,13 @@ struct HomeScreen: View {
                     Button {
                         showingGoalEditor = true
                     } label: {
-                        ZStack {
-                            Circle()
-                                .fill(showingGoalEditor
-                                      ? accent
-                                      : (isDark ? Color.white.opacity(0.10) : Color.black.opacity(0.07)))
-                                .frame(width: 24, height: 24)
-                                .overlay(
-                                    showingGoalEditor
-                                        ? Circle().stroke(accent.opacity(0.19), lineWidth: 4)
-                                        : nil
-                                )
-                            Image("ic_edit")
-                                .font(.system(size: 11, weight: .bold))
-                                .foregroundColor(showingGoalEditor ? .white : theme.sub)
-                        }
+                        Image("ic_edit")
+                            .font(.system(size: 11, weight: .bold))
+                            .foregroundColor(theme.text)
+                            .padding(.horizontal, 9)
+                            .padding(.vertical, 6)
+                            .modifier(YearChipGlass(isDark: isDark))
+                            .contentShape(Capsule())
                     }
                     .buttonStyle(.plain)
                 }
@@ -237,7 +266,7 @@ struct HomeScreen: View {
     private var heatmapSection: some View {
         VStack(alignment: .leading, spacing: 0) {
             HStack(spacing: 4) {
-                Text(viewModel.totalText)
+                Text(viewModel.heatmapTotalText)
                     .font(.system(size: 13, weight: .semibold))
                     .foregroundColor(theme.text)
                 Text(Strings.steps_in_last_year)
@@ -249,7 +278,7 @@ struct HomeScreen: View {
             .padding(.bottom, 14)
 
             SolidGridView(
-                days: viewModel.days,
+                days: viewModel.heatmapDays,
                 goal: viewModel.goal,
                 palette: palette,
                 today: Calendar.current.startOfDay(for: Date()),
@@ -272,9 +301,9 @@ struct HomeScreen: View {
 
     private var statsRow: some View {
         let items: [(label: String, value: String, unit: String)] = [
-            (Strings.daily_avg, viewModel.averageText,  Strings.steps_unit),
-            (Strings.total_label, viewModel.totalCompact, viewModel.dayCountText),
-            (Strings.record_label, viewModel.recordText, viewModel.recordDateText),
+            (Strings.daily_avg, viewModel.heatmapAverageText,  Strings.steps_unit),
+            (Strings.total_label, viewModel.heatmapTotalCompact, viewModel.heatmapDayCountText),
+            (Strings.record_label, viewModel.heatmapRecordText, viewModel.heatmapRecordDateText),
         ]
 
         return HStack(alignment: .top, spacing: 0) {
@@ -311,6 +340,57 @@ struct HomeScreen: View {
     }
 }
 
+// MARK: - Year Chip Glass (iOS 26 Liquid Glass, fallback for older)
+
+private struct YearChipGlass: ViewModifier {
+    let isDark: Bool
+
+    func body(content: Content) -> some View {
+        if #available(iOS 26.0, *) {
+            content
+                .glassEffect(.regular.interactive(), in: .capsule)
+        } else {
+            content
+                .background(.ultraThinMaterial, in: Capsule())
+                .overlay(
+                    Capsule().stroke(
+                        (isDark ? Color.white : Color.black).opacity(0.12),
+                        lineWidth: 1
+                    )
+                )
+        }
+    }
+}
+
+// MARK: - Done Button Glass (native iOS 26 glass button style, fallback for older)
+
+private struct DoneButtonGlass: ViewModifier {
+    let isDark: Bool
+    let textColor: Color
+
+    func body(content: Content) -> some View {
+        if #available(iOS 26.0, *) {
+            content
+                .tint(textColor)
+                .glassEffect()
+                .buttonStyle(.glass)
+        } else {
+            content
+                .foregroundColor(textColor)
+                .padding(.horizontal, 16)
+                .padding(.vertical, 6)
+                .background(.ultraThinMaterial, in: Capsule())
+                .overlay(
+                    Capsule().stroke(
+                        (isDark ? Color.white : Color.black).opacity(0.12),
+                        lineWidth: 1
+                    )
+                )
+                .buttonStyle(.plain)
+        }
+    }
+}
+
 // MARK: - Goal Editor Sheet
 
 private struct GoalEditorSheet: View {
@@ -320,7 +400,6 @@ private struct GoalEditorSheet: View {
     let accent: Color
     let onSave: (Int) -> Void
 
-    @Environment(\.dismiss) private var dismiss
     @State private var goalValue: Int
 
     private let presets = [5_000, 7_000, 8_000, 10_000, 12_000, 15_000, 20_000, 25_000, 30_000]
@@ -358,18 +437,6 @@ private struct GoalEditorSheet: View {
                     .font(.system(size: 22, weight: .semibold))
                     .foregroundColor(textCol)
                 Spacer()
-                Button {
-                    onSave(goalValue)
-                    dismiss()
-                } label: {
-                    Text(Strings.done)
-                        .font(.system(size: 15, weight: .semibold))
-                        .foregroundColor(accent)
-                        .padding(.horizontal, 16)
-                        .padding(.vertical, 5)
-                        .background(RoundedRectangle(cornerRadius: 10).fill(accent.opacity(0.10)))
-                }
-                .buttonStyle(.plain)
             }
             .padding(.horizontal, 22)
             .padding(.bottom, 16)
@@ -463,7 +530,23 @@ private struct GoalEditorSheet: View {
         }
         .frame(maxWidth: .infinity)
         .frame(maxHeight: .infinity)
-        .background(sheetBg.ignoresSafeArea())
+        .onChange(of: goalValue) { newValue in
+            onSave(newValue)
+        }
+    }
+}
+
+// MARK: - Glass Sheet Background (liquid glass surface on iOS 26, material fallback)
+
+private struct TranslucentSheetBackground: ViewModifier {
+    let fallback: Color
+
+    func body(content: Content) -> some View {
+        if #available(iOS 16.4, *) {
+            content.presentationBackground(.ultraThinMaterial)
+        } else {
+            content.background(fallback.ignoresSafeArea())
+        }
     }
 }
 

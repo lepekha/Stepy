@@ -185,7 +185,7 @@ func fmtCompact(_ n: Int) -> String {
         let s = String(format: v >= 10 ? "%.0fM" : "%.2fM", v)
         return s.hasSuffix(".00M") ? "\(Int(v))M" : s
     case 10_000...: return "\(n / 1_000)K"
-    case 1_000...:  return String(format: "%.1fK", Double(n) / 1_000)
+    case 1_000...:  return n % 1_000 == 0 ? "\(n / 1_000)K" : String(format: "%.1fK", Double(n) / 1_000)
     default:        return "\(n)"
     }
 }

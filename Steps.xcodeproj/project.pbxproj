@@ -419,6 +419,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Stepy;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Steps uses Health data to show your real step history.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Steps saves step data to Health to keep your history accurate.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UIBackgroundModes = healthkit;
@@ -461,6 +462,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Stepy;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Steps uses Health data to show your real step history.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Steps saves step data to Health to keep your history accurate.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UIBackgroundModes = healthkit;
